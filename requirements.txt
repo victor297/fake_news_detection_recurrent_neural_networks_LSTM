@@ -1,0 +1,4 @@
+pickle
+nltk
+sklearn
+re
