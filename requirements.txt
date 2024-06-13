@@ -1,2 +1,4 @@
+pickle
 nltk
-sklearn
+scikit-learn
+re
