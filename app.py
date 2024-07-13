@@ -33,7 +33,7 @@ def fake_news(news):
 
 if __name__ == '__main__':
     st.subheader('Fake News Detection Using Recurrent Neural Network')
-    st.write('By WALE LOCO')
+    st.write('By 20/47xcs/00238 Abubakry Muhammad Olawale')
     # st.write("Input the News content below")
     sentence = st.text_area("Enter your news content here", "",height=200)
     predict_btt = st.button("predict")
