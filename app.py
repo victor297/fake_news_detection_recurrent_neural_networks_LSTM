@@ -2,6 +2,8 @@ import streamlit as st
 import pickle
 import re
 import nltk
+from PIL import Image
+
 
 # Download NLTK stopwords
 nltk.download('stopwords')
