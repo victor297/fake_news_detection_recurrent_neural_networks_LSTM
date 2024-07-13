@@ -1,4 +1,4 @@
 nltk==3.8.1
 scikit-learn==1.0.2
 numpy==1.23.0
-pillow
+pillow==10.3.0
