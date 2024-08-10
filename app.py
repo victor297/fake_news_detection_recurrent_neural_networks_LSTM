@@ -35,7 +35,7 @@ def fake_news(news):
 
 image = Image.open('img.jpg')
 if __name__ == '__main__':
-    st.subheader('Fake News Detection Using Recurrent Neural Network')
+    st.subheader('Fake News Detection Using Long Short-Term Memory')
     st.image(image, width=650,) 
     st.write('By 20/47xcs/00238 Abubakry Muhammad Olawale')
     # st.write("Input the News content below")
