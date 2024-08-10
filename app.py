@@ -2,6 +2,8 @@ import streamlit as st
 import pickle
 import re
 import nltk
+from PIL import Image
+
 
 # Download NLTK stopwords
 nltk.download('stopwords')
@@ -22,6 +24,7 @@ def stemming(content):
     con=' '.join(con)
     return con
 
+# Streamlit Function For Building Button & app    
 def fake_news(news):
     news=stemming(news)
     input_data=[news]
@@ -30,10 +33,11 @@ def fake_news(news):
     return prediction
 
 
-
+image = Image.open('img.jpg')
 if __name__ == '__main__':
-    st.subheader('Fake News Detection Using Long Short-Term Memory')
-    st.write('By WALE LOCO')
+    st.subheader('Fake News Detection Using Recurrent Neural Network')
+    st.image(image, width=650,) 
+    st.write('By 20/47xcs/00238 Abubakry Muhammad Olawale')
     # st.write("Input the News content below")
     sentence = st.text_area("Enter your news content here", "",height=200)
     predict_btt = st.button("predict")
